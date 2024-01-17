@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "NeonSprint Extremis",
+        "price": 24999.99,
+        "type": "legs",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-1.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "JitterLegz 5000",
+        "price": 18499.99,
+        "type": "legs",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-2.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "NanoPec Dynamics",
+        "price": 19999.99,
+        "type": "chest",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-3.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "BioTechBurst Chest Co.",
+        "price": 8500,
+        "type": "chest",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-4.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "NeuroBlitz Cybernetics",
+        "price": 9999.99,
+        "type": "armes",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-5.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "TechSnicker Solutions",
+        "price": 12345.99,
+        "type": "armes",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-6.png"} } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "SpineSculpt Pro+",
+        "price": 12499.99,
+        "type": "back",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-7.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "ByteBack Innovations",
+        "price": 9800,
+        "type": "back",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-8.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Kiroshi OptiGiggle",
+        "price": 8999.99,
+        "type": "eyes",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-9.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "PixelPeep Precision Optics",
+        "price": 12499.99,
+        "type": "eyes",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-10.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "QuantumGrip Innovations",
+        "price": 12499.99,
+        "type": "hands",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-11.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "SynthAesthetics Incorporated",
+        "price": 12499.99,
+        "type": "face",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-12.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "NeuroLink Solutions",
+        "price": 15799.99,
+        "type": "face",
+        "image": { "fields": { "file": { "url": "./assets/img/products/product-13.png" } } },
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+      }
+    }
+  ]
+}
