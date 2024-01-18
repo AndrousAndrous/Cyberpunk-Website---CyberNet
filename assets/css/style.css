@@ -4,11 +4,13 @@
 }
 :root {
     --mainPink: #FF005C;
+    --AltPink: #ff005da9;
     --mainWhite: #ffffff;
     --mainCyan: #01DFBB;
     --mainBlack: #222;
     --mainBlue: #0F1026;
     --mainYellow:#fcee0a;
+    --border-color: var(var(--mainCyan));
     --mainSpacing: 0.1rem;
     --mainTransition: all 0.3s linear;
     --fontRajdhani:"Rajdhani", sans-serif;
@@ -22,6 +24,8 @@
     --fontSizeH5:28px;
     --fontSizeH6:20px;
     --fontSizeIcon:1.5rem;
+
+    --glitched-duration: 0.9s;
 }
 /*
     font-family: "purista-web", sans-serif;
@@ -274,8 +278,33 @@ body{
 
 /* --------------- HOME ---------------- */
 .header{
-    background :center / cover no-repeat url(../img/hero_background-2.png) var(--mainPink);
     height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.header-bg-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/hero_background-1.png) center/cover no-repeat;
+}
+.header-bg-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: url(../img/herp-background-0.png) center/cover no-repeat var(--mainPink);
+    animation: glitch 5s infinite;
+}
+@media (max-width:1200){
+    .header-bg-2{
+        top: 300px;
+    }
 }
 /* --------------- End of HOME ---------------- */
 
@@ -712,13 +741,9 @@ body{
 }
 /* --------------- End of ERROR ---------------- */
 
-/* TESTTESTEST */
+/* --------------- KEYFRAMES ---------------- */
 
-.cyber-glitch{
-    animation: cyber-glitch-1 5s linear infinite;
-}
-
-@keyframes cyber-glitch{
+@keyframes glitch{
     0% {transform: translate(0,0) skew(0deg); filter: invert(0);}
     1% {transform: translate(0,0) skew(-3deg); filter: invert(0);}
     2% {transform: translate(0,0) skew(3deg); filter: invert(0);}
@@ -730,4 +755,38 @@ body{
     64% {transform: translate(0,0) skew(0deg); filter: invert(0.2);}
     65% {transform: translate(0,0) skew(0deg); filter: invert(0);}
 }
+/* --------------- End of KEYFRAMES ---------------- */
+
+/* --------------- TEST ZONE ---------------- */
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    background-color: var(--mainBlue);
+  }
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  ::-webkit-scrollbar-track-piece {
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--mainPink);
+    border-bottom: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    transition: var(--glitched-duration);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--AltPink);
+  }
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
+  ::-webkit-resizer {
+    display: none;
+  }
+
+
 
