@@ -526,7 +526,7 @@ body{
     .sales-logo-big.glitch-2{
         display: none;
     }
-    .sales-logo-small{
+    .sales-logo-small.glitch-2{
         display: block;
         width: auto;
     }
