@@ -29,8 +29,7 @@ class Products {
                 const {type} = item.fields;
                 const image = item.fields.image.fields.file.url;
                 const grade = item.fields.grade.fields.file.url;
-                const {description} = item.fields;
-                return{title, price, id, type, image, grade, description};
+                return{title, price, id, type, image, grade};
                 //la méthode 'map' créer un nouveau tableau 
             })
             return products;
@@ -66,16 +65,15 @@ class UI{
                 <div class="item-tag">
                     <div class="item-tag-containt">
                         <div class="item-tag-txt">
-                            <h6>Quality</h6>
+                            <h3>Grade</h3>
                             <img src=${product.grade} alt="">
                         </div>
                         <div class="bag-btn" data-id=${product.id}></div>
                     </div>
                 </div>
                 <div class="vignette">
-                    <h4 class='item-name'>${product.title}</h4>
-                    <h5><span class="price">€$</span> ${product.price}</h5>
-                    <p class='item-description'>${product.description}<p>
+                    <h3 class='item-name'>${product.title}</h3>
+                    <h4><span class="price">€$</span> ${product.price}</h4>
                 </div>
                     </article>
                 `;
@@ -205,10 +203,13 @@ class UI{
         Storage.saveCart(cart);
         let button = this.getSingleButton(id);
         button.disabled = false;
+        // button.innerHTML = `<i class="fa-solid fa-cart-shopping"></i>
+        // add to cart`;
     }
     getSingleButton(id){
         return buttonsDOM.find(button => button.dataset.id === id);
     }
+    
 }
 // local storage
 class Storage{

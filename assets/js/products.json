@@ -7,7 +7,8 @@
         "price": 24999.99,
         "type": "legs",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-1.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } },
+        "description": {}
       }
     },
     {
@@ -17,7 +18,8 @@
         "price": 18499.99,
         "type": "legs",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-2.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } },
+        "description": {}
       }
     },
     {
@@ -27,7 +29,8 @@
         "price": 19999.99,
         "type": "chest",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-3.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } },
+        "description": {}
       }
     },
     {
@@ -37,7 +40,8 @@
         "price": 8500,
         "type": "chest",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-4.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } },
+        "description": {}
       }
     },
     {
@@ -47,7 +51,8 @@
         "price": 9999.99,
         "type": "armes",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-5.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } },
+        "description": {}
       }
     },
     {
@@ -57,7 +62,8 @@
         "price": 12345.99,
         "type": "armes",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-6.png"} } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } },
+        "description": {}
       }
     },
     {
@@ -67,7 +73,8 @@
         "price": 12499.99,
         "type": "back",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-7.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } },
+        "description": {}
       }
     },
     {
@@ -77,7 +84,8 @@
         "price": 9800,
         "type": "back",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-8.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } },
+        "description": {}
       }
     },
     {
@@ -87,7 +95,8 @@
         "price": 8999.99,
         "type": "eyes",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-9.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-1.svg" } } },
+        "description": {}
       }
     },
     {
@@ -97,7 +106,8 @@
         "price": 12499.99,
         "type": "eyes",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-10.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } },
+        "description": {}
       }
     },
     {
@@ -107,7 +117,8 @@
         "price": 12499.99,
         "type": "hands",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-11.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } },
+        "description": {}
       }
     },
     {
@@ -117,7 +128,8 @@
         "price": 12499.99,
         "type": "face",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-12.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-2.svg" } } },
+        "description": {}
       }
     },
     {
@@ -127,7 +139,8 @@
         "price": 15799.99,
         "type": "face",
         "image": { "fields": { "file": { "url": "./assets/img/products/product-13.png" } } },
-        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } }
+        "grade": { "fields": { "file": { "url": "./assets/img/products-grade/product-3.svg" } } },
+        "description": {}
       }
     }
   ]

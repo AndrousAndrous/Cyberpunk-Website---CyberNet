@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root {
-    --mainPink: #FF2060;
+    --mainPink: #FF005C;
     --mainWhite: #ffffff;
     --mainCyan: #01DFBB;
     --mainBlack: #222;
@@ -271,12 +271,14 @@ body{
     margin-bottom: 1rem;
 }
 /* --------------- End of CART ---------------- */
+
 /* --------------- HOME ---------------- */
 .header{
     background :center / cover no-repeat url(../img/hero_background-2.png) var(--mainPink);
     height: 100vh;
 }
 /* --------------- End of HOME ---------------- */
+
 /* --------------- PRODUCTS ---------------- */
 .products {
     /* padding: 4rem; */
@@ -514,7 +516,7 @@ body{
     justify-content: center;
 }
 .wlc-flex p{
-    padding-top: 10%;
+    padding-top: 100px;
     margin-bottom: 10%;
     font-size: var(--fontSizeH5);
     font-family: var(--fontRajdhani);
@@ -552,7 +554,6 @@ body{
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 10px;
     padding-top: 8%;
-    /* grid-auto-rows: minmax(100px, auto); */
 }
 .silverhand, .saburo{
     grid-template-columns: 2fr 1fr;
@@ -562,8 +563,6 @@ body{
     justify-content: right;
 }
 .lgd-image{
-    /* object-fit: fill; */
-    /* width: 100%; */
     height: 100vh;
     max-width:max-content;
     width: auto;
@@ -618,7 +617,6 @@ body{
 @media (max-width:900px){
     
     .lgd-card{
-        margin: 0 32;
         display: flex;
         flex-direction: column;
     }
@@ -641,7 +639,6 @@ body{
         margin-left: 10%;
     }
     .lgd-card{
-        margin: 0 32;
         margin-inline: 4%;
     }
     .lgd-name{
@@ -715,25 +712,8 @@ body{
 }
 /* --------------- End of ERROR ---------------- */
 
-
-
-
-
-
-
-
-
-
 /* TESTTESTEST */
-.cyberpunk{
-    /* padding: 30px ;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 15px; 
-    background-color: var(--mainBlack); */
-    clip-path: polygon(0px 25px, 26px 0px, calc(60% - 25px) 0px, 60% 25px, 100% 25px, 100% calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(80% - 10px)  calc(100% - 10px), calc(80% - 15px) calc(100% - 0px), 10px  calc(100% - 0px), 0% calc(100% - 10px));
-    max-width: calc(100% - 10px);
-}
+
 .cyber-glitch{
     animation: cyber-glitch-1 5s linear infinite;
 }
