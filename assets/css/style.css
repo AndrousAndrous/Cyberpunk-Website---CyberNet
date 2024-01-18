@@ -24,8 +24,8 @@
     --fontSizeH5:28px;
     --fontSizeH6:20px;
     --fontSizeIcon:1.5rem;
-
-    --glitched-duration: 0.9s;
+    --glitch-1: glitch-1 5s infinite;
+    --glitch-2: glitch-2 5s infinite;
 }
 /*
     font-family: "purista-web", sans-serif;
@@ -35,6 +35,13 @@
 body{
     font-family: 'Rajdhani', sans-serif;
     color: var(--mainWhite);
+    overflow-x: hidden;
+}
+.glitch-1{
+    animation: var(--glitch-1) ;
+}
+.glitch-2{
+    animation: var(--glitch-1) ;
 }
 /* --------------- NAV-MENU ---------------- */
 .header-top{
@@ -299,7 +306,6 @@ body{
     width: 100%;
     height: 100%;
     background: url(../img/herp-background-0.png) center/cover no-repeat var(--mainPink);
-    animation: glitch 5s infinite;
 }
 @media (max-width:1200){
     .header-bg-2{
@@ -503,7 +509,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.sales-logo-small{
+.sales-logo-small.glitch-2{
     display: none;
 }
 @media (max-width:1000px){
@@ -517,7 +523,7 @@ body{
     }
 }
 @media (max-width:500px){
-    .sales-logo-big{
+    .sales-logo-big.glitch-2{
         display: none;
     }
     .sales-logo-small{
@@ -743,7 +749,7 @@ body{
 
 /* --------------- KEYFRAMES ---------------- */
 
-@keyframes glitch{
+@keyframes glitch-1 {
     0% {transform: translate(0,0) skew(0deg); filter: invert(0);}
     1% {transform: translate(0,0) skew(-3deg); filter: invert(0);}
     2% {transform: translate(0,0) skew(3deg); filter: invert(0);}
@@ -754,6 +760,19 @@ body{
     63% {transform: translate(0,0) skew(3deg); filter: invert(0.8);}
     64% {transform: translate(0,0) skew(0deg); filter: invert(0.2);}
     65% {transform: translate(0,0) skew(0deg); filter: invert(0);}
+}
+@keyframes glitch-2 {
+    0% { transform: translate(0, 0) skew(0deg); filter: invert(0); }
+    10% { transform: translate(0, 0) skew(-5deg); filter: invert(0); }
+    20% { transform: translate(0, 0) skew(5deg); filter: invert(0); }
+    30% { transform: translate(0, 0) skew(-3deg); filter: invert(0); }
+    40% { transform: translate(0, 0) skew(3deg); filter: invert(0); }
+    50% { transform: translate(0, 0) skew(0deg); filter: invert(0); }
+    51% { transform: translate(0, 0) skew(-2deg); filter: invert(0.2); }
+    52% { transform: translate(0, 0) skew(0deg); filter: invert(0.2); }
+    53% { transform: translate(0, 0) skew(2deg); filter: invert(0.8); }
+    54% { transform: translate(0, 0) skew(0deg); filter: invert(0.2); }
+    55% { transform: translate(0, 0) skew(0deg); filter: invert(0); }
 }
 /* --------------- End of KEYFRAMES ---------------- */
 
